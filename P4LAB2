@@ -1,0 +1,21 @@
+#Kimora Lee
+#P4LAB2
+#4-7-24
+#COMPLETE LAB 2 
+
+# Input two integers
+start = int(input())
+end = int(input())
+
+if end < start:
+    print("Second integer can't be less than the first.")
+else:
+  
+    print(start, end=" ")
+
+    
+    while start + 5 <= end:
+        start += 5
+        print(start, end=" ")
+
+    print()
