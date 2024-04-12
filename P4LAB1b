@@ -1,0 +1,37 @@
+#Kimora Lee
+#P4LAB1
+#4-7-24
+#Draw KL 
+import turtle
+
+# Set up the turtle
+t = turtle.Turtle()
+# Draw "K" for Kimora
+t.left(90)
+t.forward(100)
+t.backward(50)
+t.right(45)
+t.forward(70)
+t.backward(70)
+t.right(90)
+t.forward(70)
+
+# Raise the pen
+t.penup()
+
+# Move to the right
+t.goto(100, 0)
+# Set the pen orientation
+t.setheading(0)
+
+# Lower the pen
+t.pendown()
+
+# Draw "L" for Lee
+t.left(90) 
+t.forward(100) 
+t.backward(100) 
+t.right(90) 
+t.forward(50) 
+
+turtle.mainloop()
